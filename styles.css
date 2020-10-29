@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+a {
+  color: #11999e;
+}
+
+hr {
+  border: 6px dotted #eaf6f6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 10vh;
+}
+
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.6rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.top-computer {
+  width: 150px;
+  position: absolute;
+  right: 8rem;
+  top: 50px;
+  opacity: 0.7;
+  border-radius: 20%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 6rem;
+  top: 150px;
+}
+
+.rotateimg180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-radius: 140%;
+}
+.big {
+  width: 25%;
+  border-radius: 100%;
+}
+#mrvegas {
+  width: 15%;
+  border-radius: 70%;
+}
+
+#left {
+  float: left;
+  margin-right: 30px;
+}
+
+#weight {
+  font-weight: normal;
+}
+.intro {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+#right {
+  float: right;
+  margin-left: 30px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.lorem {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.fcc {
+  
+  margin-top: 10%;
+}
+
+.fcc h3,h4 {
+  color: #991111;
+  opacity: .7;  
+}
+
+@media (max-width: 920px) {
+  .top-container img {
+    display: none;
+  }
+}
+
+ul {
+list-style-type: none
+}
+
+#fccIcon {
+  width: 13%;
+}
